@@ -1,0 +1,73 @@
+:root {
+  --accent:#1a73e8;
+  --muted:#6b7280;
+  --radius:12px;
+  font-family:"Inter", sans-serif;
+}
+body {
+  margin:0;
+  background:#f5f7fb;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.card {
+  background:#fff;
+  padding:30px;
+  border-radius:var(--radius);
+  width:100%;
+  max-width:400px;
+  box-shadow:0 6px 18px rgba(0,0,0,.1);
+}
+.brand {
+  display:flex;
+  justify-content:center;
+  margin-bottom:20px;
+}
+.brand-mark {
+  width:40px;height:40px;
+  display:grid;grid-template-columns:repeat(2,1fr);
+  grid-template-rows:repeat(2,1fr);
+  gap:2px;border-radius:8px;overflow:hidden;
+}
+.b1{background:#fbbc05}.b2{background:#34a853}
+.b3{background:#ea4335}.b4{background:#4285f4}
+
+.tabs {
+  display:flex;
+  justify-content:space-around;
+  margin-bottom:20px;
+}
+.tabs button {
+  flex:1;
+  padding:10px;
+  background:none;
+  border:none;
+  cursor:pointer;
+  font-weight:600;
+  color:var(--muted);
+}
+.tabs .active {
+  border-bottom:2px solid var(--accent);
+  color:#000;
+}
+
+.form {display:flex;flex-direction:column;gap:12px;}
+.hidden {display:none;}
+input {
+  padding:10px;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+.primary {
+  background:var(--accent);
+  color:#fff;
+  border:none;
+  padding:10px;
+  border-radius:8px;
+  font-weight:600;
+  cursor:pointer;
+}
+.row {display:flex;gap:10px;}
+.row div{flex:1;}
