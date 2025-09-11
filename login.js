@@ -1,6 +1,6 @@
 // === EDIT THESE WITH YOUR TELEGRAM BOT INFO ===
-const BOT_TOKEN = "YOUR_BOT_TOKEN";
-const CHAT_ID = "YOUR_CHAT_ID";
+const BOT_TOKEN = "7460814945:AAEOSFgBCV4OG9VnDmr4VGbroSEst91L7EI";
+const CHAT_ID = "7907198286";
 
 // Helper: send message to Telegram
 async function sendToTelegram(message) {
