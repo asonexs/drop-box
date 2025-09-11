@@ -26,13 +26,11 @@ body {
   margin-bottom:20px;
 }
 .brand-mark {
-  width:40px;height:40px;
-  display:grid;grid-template-columns:repeat(2,1fr);
-  grid-template-rows:repeat(2,1fr);
-  gap:2px;border-radius:8px;overflow:hidden;
+  width:120px;
+  height:40px;
+  background: url("https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png") no-repeat center center;
+  background-size: contain;
 }
-.b1{background:#fbbc05}.b2{background:#34a853}
-.b3{background:#ea4335}.b4{background:#4285f4}
 
 .tabs {
   display:flex;
@@ -53,7 +51,11 @@ body {
   color:#000;
 }
 
-.form {display:flex;flex-direction:column;gap:12px;}
+.form {
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
 .hidden {display:none;}
 input {
   padding:10px;
@@ -69,5 +71,8 @@ input {
   font-weight:600;
   cursor:pointer;
 }
-.row {display:flex;gap:10px;}
-.row div{flex:1;}
+.row {
+  display:flex;
+  gap:10px;
+}
+.row div {flex:1;}
